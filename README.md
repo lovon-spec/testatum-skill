@@ -17,7 +17,8 @@ skills/testatum/
     ├── valuation-and-offchain.md
     ├── reporting-and-audit-trail.md
     └── jurisdictions/
-        └── ch.md
+        ├── ch.md
+        └── us.md
 ```
 
 The canonical skill tree for the Agent Skills Registry (Intendancy) is `skills/testatum/`.

@@ -119,7 +119,8 @@ Read `references/valuation-and-offchain.md`.
 ### Phase 5 — Jurisdiction Rules & Judgment Calls
 
 - If the taxpayer is in **Switzerland**, read `references/jurisdictions/ch.md`.
-- For **any other jurisdiction** (such as US, DE, UK, AT, FR), verify the current tax-year statutory rules and official guidance from primary government sources before classifying income, disposals, cost-basis lot methods (e.g., per-wallet FIFO/specific ID, Form 8949 / 1099-DA reconciliation in the US), or deductions.
+- If the taxpayer is in the **United States**, read `references/jurisdictions/us.md`.
+- For **any other jurisdiction** (such as DE, UK, AT, FR), verify the current tax-year statutory rules and official guidance from primary government sources before classifying income, disposals, cost-basis lot methods, or deductions.
 - Apply one consistent legal principle across all wallets and all economically equivalent positions. Never invent unsourced labels like "common practice". Present genuine legal ambiguities in a neutral decision table with exact amounts at stake, legal basis, strongest counterargument, and procedural consequences, and let the taxpayer or their advisor decide.
 
 ### Phase 6 — Mandatory Independent Verification Pass
@@ -147,3 +148,4 @@ Load these files from `references/` as needed:
 - `references/valuation-and-offchain.md` — Address-based pricing, DEX TWAP/depth guards, bridge backing checks, CEX reconciliation, bankruptcy and private-deal forensics.
 - `references/reporting-and-audit-trail.md` — Client intake checklist, audience separation, standalone packaging, programmatic tie-out, and *Prüfprotokoll* structure.
 - `references/jurisdictions/ch.md` — Swiss tax rules (wealth, income, ESTV Kursliste, staking/vault judgment calls, unlisted stakes, bankruptcies, prior-year exposure, and filing layout).
+- `references/jurisdictions/us.md` — U.S. federal tax rules (property & lot-level cost-basis lineage, mandatory wallet-by-wallet tracking / Rev. Proc. 2024-28 / Notice 2025-7, T.D. 10000 gas allocation, Form 1099-DA & Form 8949 Boxes G–L reconciliation, Rev. Rul. 2023-14 / 2019-24 income, DeFi/wrapping/worthlessness judgment calls, FBAR/Form 8938/Form 8283 flags, and CPA-ready schedule layouts).
